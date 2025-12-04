@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Auto Labs - A Unit of Sea Automotives</title>
+<style>
+  body { margin:0; font-family: Arial, sans-serif; background:#f8f8f8; color:#222; }
+  header, footer { background:#fff; border-bottom:1px solid #ddd; padding:15px 20px; }
+  footer { border-top:1px solid #ddd; border-bottom:none; }
+  nav a { margin:0 10px; text-decoration:none; color:#333; font-weight:bold; }
+  nav a:hover { text-decoration:underline; }
+  .container { max-width:1100px; margin:20px auto; padding:20px; background:#fff; border-radius:8px; }
+  h1, h2, h3 { margin-top:0; }
+  .logo { font-size:26px; font-weight:bold; color:#0a4fa3; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+  .card { border:1px solid #ddd; padding:15px; border-radius:8px; background:#fafafa; }
+  ol li { margin-bottom:10px; }
+  input, textarea { width:100%; padding:8px; margin:6px 0; border:1px solid #ccc; border-radius:4px; }
+  button { padding:10px 18px; background:#0a4fa3; color:#fff; border:none; border-radius:4px; cursor:pointer; }
+  button:hover { opacity:0.9; }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">AUTO LABS</div>
+  <div style="font-size:12px; color:#666;">A Unit of Sea Automotives</div>
+  <nav style="margin-top:10px;">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#steps">How to Start</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div id="home" class="container">
+  <h2>Auto Labs — R&D & Prototyping</h2>
+  <p>Auto Labs is the research and development wing of Sea Automotives. It focuses on prototyping, hydrogen fuel research, automotive testing, defect detection, and next-gen vehicle technologies.</p>
+  <div class="grid">
+    <div>
+      <ul>
+        <li>Hydrogen & alternative fuel research</li>
+        <li>Prototype design & testing</li>
+        <li>EV components R&D</li>
+        <li>AI-based defect localization</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Quick Facts</h3>
+      <p><b>Business Type:</b> Sole Proprietorship</p>
+      <p><b>Parent Company:</b> Sea Automotives</p>
+      <p><b>Focus:</b> R&D, innovation, prototyping</p>
+    </div>
+  </div>
+</div>
+
+<div id="about" class="container">
+  <h2>About Auto Labs</h2>
+  <p>Auto Labs was created to work on advanced automotive engineering problems. From hydrogen powertrains to autonomous sensor fusion, Auto Labs conducts research, builds prototypes, and performs safety assessments.</p>
+  <h3>Mission</h3>
+  <p>To build next-gen automotive technologies with safety, innovation, and scientific excellence.</p>
+  <h3>Values</h3>
+  <ul>
+    <li>Engineering accuracy</li>
+    <li>Practical development</li>
+    <li>Standards & compliance</li>
+  </ul>
+</div>
+
+<div id="services" class="container">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>R&D Projects</h3>
+      <p>Concept development, simulations, engine design, hydrogen systems.</p>
+    </div>
+    <div class="card">
+      <h3>Testing & Validation</h3>
+      <p>Fuel analysis, emissions testing, material strength evaluation.</p>
+    </div>
+    <div class="card">
+      <h3>Prototyping</h3>
+      <p>Component fabrication, 3D printing, bench testing.</p>
+    </div>
+    <div class="card">
+      <h3>Consulting</h3>
+      <p>Technical consultancy, compliance, vehicle system design.</p>
+    </div>
+  </div>
+</div>
+
+<div id="steps" class="container">
+  <h2>How to Start "Auto Labs" (Sole Proprietorship)</h2>
+  <ol>
+    <li><b>Choose Business Name:</b> Auto Labs under Sea Automotives.</li>
+    <li><b>Prepare Aadhaar & PAN:</b> PAN of proprietor required.</li>
+    <li><b>Open Current Account:</b> In the name of Auto Labs (Proprietor XYZ).</li>
+    <li><b>GST Registration:</b> Only if turnover crosses limit or B2B supply.</li>
+    <li><b>Shop & Establishment License:</b> From local municipal body.</li>
+    <li><b>Trademark (Optional):</b> Protect logo and name.</li>
+    <li><b>Insurance:</b> Basic liability + equipment insurance.</li>
+    <li><b>Website Launch:</b> Upload this HTML website.</li>
+  </ol>
+</div>
+
+<div id="contact" class="container">
+  <h2>Contact Us</h2>
+  <div class="grid">
+    <div>
+      <h3>Team</h3>
+      <p><b>Managing Director:</b> Mr. Somnath Paswan<br>Phone: 8863935981</p>
+      <p><b>Bodyshop Manager:</b> Prem Kumar<br>Phone: 9905055296</p>
+      <p><b>Email:</b> contact@seaautomotives.example</p>
+    </div>
+    <div>
+      <h3>Send a Message</h3>
+      <form onsubmit="alert('Message sent (demo)'); return false;">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea rows="4" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 Auto Labs — A Unit of Sea Automotives</p>
+</footer>
+
+</body>
+</html>
